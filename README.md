@@ -31,6 +31,7 @@ Me interesa desarrollar modelos que, además de contar con una base matemática 
 - Automatización de procesos
 - Modelación estadística y predictiva
 - Ciencia de datos aplicada a seguros
+- Valuación de activos financieros
 
 ---
 
@@ -75,6 +76,20 @@ El proyecto incorpora ajuste por exposición, factores de riesgo categóricos, i
 **Temas:** GLM Tweedie, tarificación, relatividades de riesgo, exposición y modelación predictiva.
 
 `Python` `statsmodels` `scikit-learn` `GLM` `Gastos Médicos`
+
+---
+
+## Finanzas cuantitativas y valuación
+
+### [Suite de Valuación de Instrumentos Financieros](https://github.com/EmGM112002/financial-instruments-valuation-suite)
+
+Suite educativa y aplicada de valuación desarrollada en **Python, R y Excel** que conecta teoría financiera, datos de mercado (Banxico, Fed, Yahoo Finance) y validación cruzada independiente.
+
+El proyecto abarca cuatro análisis completos: interpolación de curvas y precios de bonos (YTM, DV01), valuación de opciones europeas (BSM y Monte Carlo), estructuración de swaps fijo-flotante (Forwards implícitos, tasa par), y estimación del riesgo de mercado mediante CAPM (OLS, HAC, validación estadística).
+
+**Temas:** renta fija, opciones, swaps, simulación Monte Carlo, CAPM, inferencia estadística robusta y diferencias finitas.
+
+`Python` `R` `Excel` `Finanzas Cuantitativas` `Derivados`
 
 ---
 
@@ -193,6 +208,7 @@ Cada repositorio contiene documentación específica sobre:
 
 | Proyecto | Área | Metodología principal | Tecnología |
 |---|---|---|---|
+| [Suite de Valuación Financiera](https://github.com/EmGM112002/financial-instruments-valuation-suite) | Finanzas Cuantitativas | Derivados, CAPM, Renta Fija | Python / R / Excel |
 | [Calculadora de Primas de Vida](https://github.com/EmGM112002/calculadora-primas-seguro-vida) | Seguro de Vida | Tarificación actuarial | Excel / VBA |
 | [Dashboard de Siniestralidad](https://github.com/EmGM112002/dashboard-siniestralidad-seguro-automoviles) | Analítica de Seguros | Frecuencia, Severidad y Loss Ratio | Power BI / DAX |
 | [Tarificación de Gastos Médicos](https://github.com/EmGM112002/tarificacion-seguro-gastos-medicos-glm) | Tarificación | GLM Tweedie | Python |
